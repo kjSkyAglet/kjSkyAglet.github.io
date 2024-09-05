@@ -6,17 +6,6 @@
 </head>
 <body>
   <img id="cardImage" src="" alt="カード">
-
-  <script>
-    // カードの画像ファイル名を配列で管理
-    const cardImages = [];
-    for (let i = 1; i <= 36; i++) {
-      cardImages.push(`cards/${i.toString().padStart(2, '0')}.png`);
-    }
-
-    // ランダムな画像を選択して表示
-    const randomIndex = Math.floor(Math.random() * cardImages.length);
-    document.getElementById("cardImage").src = cardImages[randomIndex];
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>
