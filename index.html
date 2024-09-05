@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>ボードゲーム</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <img id="cardImage" src="" alt="カード">
@@ -9,7 +10,7 @@
   <script>
     // カードの画像ファイル名を配列で管理
     const cardImages = [];
-    for (let i = 1; i <= 13; i++) {
+    for (let i = 1; i <= 36; i++) {
       cardImages.push(`cards/${i.toString().padStart(2, '0')}.png`);
     }
 
